@@ -1,2 +1,11 @@
-#1_build.gradle:app: line 10-12
-#2_build.gradle:app: line 55-57
+#1_build.gradle:app: add composeBom 66-68
+#2_libs.versions.toml: add kapt: define kotlin and kotlin-kapt
+#3_build.gradle:project: add in Plugins alias(libs.plugins.kotlin.kapt) apply false
+#4_build.gradle:app: add in Plugins alias (libs.plugins.kotlin.kapt)
+#5_build.gradle:app: add compose plugins (lifecycle-viewmodel-compose, navigation compose, material-icon-extended, hilt-navigation-compose)
+
+
+
+
+
+

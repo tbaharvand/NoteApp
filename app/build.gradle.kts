@@ -57,15 +57,16 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.lifecycle.viewmodel.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+
     //compose
     val composeBom = platform("androidx.compose:compose-bom:2025.02.00")
     implementation(composeBom)
-    androidTestImplementation("androidx.compose:compose-bom:2025.02.00")
+    androidTestImplementation(composeBom)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
    // implementation (libs.hilt.android)
 
