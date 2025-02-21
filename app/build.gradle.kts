@@ -57,6 +57,16 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.material.icons.extended)
+    implementation(libs.androidx.hilt.navigation.compose)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.dagger.hilt.android)
+    implementation(libs.androidx.hilt.lifecycle.viewmodel)
+    implementation(libs.room.runtime)
+    implementation(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -69,6 +79,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
    // implementation (libs.hilt.android)
+
 
 
 }
