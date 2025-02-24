@@ -3,6 +3,8 @@
 #3_build.gradle:project: add in Plugins alias(libs.plugins.kotlin.kapt) apply false
 #4_build.gradle:app: add in Plugins alias (libs.plugins.kotlin.kapt)
 #5_build.gradle:app: add compose plugins (lifecycle-viewmodel-compose, navigation compose, material-icon-extended, hilt-navigation-compose)
+#6_create dataclass for Notes
+#7_define Color.kt and import androidx.compose.color
 
 
 

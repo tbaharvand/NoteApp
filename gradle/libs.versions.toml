@@ -22,6 +22,8 @@ hiltLifecycleViewmodel = "1.0.0-alpha03"
 roomRuntimeVersion = "2.7.0-beta01"
 roomCompiler = "2.7.0-beta01"
 roomKtx = "2.7.0-beta01"
+composeCompiler = "1.0.0-alpha03"
+composeRuntime = "0.1.0-dev14"
 
 
 [libraries]
@@ -46,6 +48,8 @@ androidx-hilt-lifecycle-viewmodel = { group = "androidx.hilt", name = "hilt-life
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntimeVersion" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+androidx-compose-compiler = { group = "androidx.compose", name = "compose-compiler", version.ref = "composeCompiler" }
+androidx-compose-runtime = { group = "androidx.compose", name = "compose-runtime", version.ref = "composeRuntime" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
